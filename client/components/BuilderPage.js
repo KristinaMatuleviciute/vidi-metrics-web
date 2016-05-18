@@ -15,8 +15,8 @@ export default class Paste extends React.Component {
     this.state = { input3: '', items: [] }
   } 
    
-  /* submit function checking is value JSON 
-  if it is not converting to it and parsing, using models IsJson and Jsonic, 
+  /* submit function checking is value is valid JSON 
+  if it is not alerting error message, it is parsing, ussing model Jsonic, 
   then ussing ajax and POST to send data to server side*/
   
   handleSubmit (event) {
